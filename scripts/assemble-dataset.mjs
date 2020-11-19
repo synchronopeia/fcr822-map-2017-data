@@ -10,7 +10,7 @@ import { fromCsv } from '../lib/csv-recordset.mjs';
 
 import srcDataSchema from '../etc/src-data-schema.mjs';
 
-const INPUT_CSV_FILE = join('public', 'data.csv');
+const CLIENT_DATA_PATH = join('client-files', 'data.csv');
 
 const parseNumberOrNull = (src) => {
   if (typeof src !== 'string') throw Error('NON_STRING: src must be a string');
@@ -22,28 +22,29 @@ const parseNumberOrNull = (src) => {
 
 const countryDefs = JSON.parse(readFileSync('./etc/country-defs.json', 'utf-8'));
 
-// writeFileSync('./etc/country-defs.min.json', JSON.stringify(countryDefs));
+const countryNames = JSON.parse(readFileSync('./etc/country-names.json', 'utf-8'));
 
-csv.parse(readFileSync(INPUT_CSV_FILE, 'utf-8'), {
+csv.parse(readFileSync(CLIENT_DATA_PATH, 'utf-8'), {
   columns: false,
   skip_empty_lines: true,
   trim: true,
   from: 1,
-}, (parseErr, inputTable) => {
+}, (parseErr, clientDataTable) => {
   if (parseErr) throw Error(parseErr);
-  const inputRecs = fromCsv(inputTable, srcDataSchema).map((rec) => ({
+  const clientDataRecs = fromCsv(clientDataTable, srcDataSchema).map((rec) => ({
     ...rec,
     slug: kebabCase(deburr(rec.name)),
   }));
-  const dataset = inputRecs.map((inputRec) => {
+  const dataset = clientDataRecs.map((inputRec) => {
     // countryDef provides ISO3166 code (used as country-id), latitude, and longitude
-    const countryDef = countryDefs.find((def) => (def.slug === inputRec.slug));
+    // const countryDef = countryDefs.find((def) => (def.slug === inputRec.slug));
+    const countryDef = countryNames.find((def) => (def.slug === inputRec.slug));
     if (countryDef === undefined) throw Error(`MISSING_COUNTRY_DEF: no country definition for ${inputRec.slug}`);
     const outputRec = {
       'country-id': countryDef.code,
       slug: countryDef.slug,
-      latitude: countryDef.latitude,
-      longitude: countryDef.longitude,
+      // latitude: countryDef.latitude,
+      // longitude: countryDef.longitude,
     };
     // all other properties come from inputRecs (spreadsheet supplied by client)
     srcDataSchema.forEach((schemaDef) => {
@@ -53,5 +54,5 @@ csv.parse(readFileSync(INPUT_CSV_FILE, 'utf-8'), {
     });
     return outputRec;
   });
-  writeFileSync('./public/json/data-recs.min.json', JSON.stringify(dataset));
+  writeFileSync('./public/json/data-recs.json', JSON.stringify(dataset));
 });
