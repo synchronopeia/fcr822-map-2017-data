@@ -1,0 +1,1342 @@
+[
+  {
+    "country-id": "AF",
+    "slug": "afghanistan",
+    "name": "Afghanistan",
+    "tree-cover-loss-mega": 0.000244,
+    "tree-cover-loss-percent-per-year": 0.0002,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "AL",
+    "slug": "albania",
+    "name": "Albania",
+    "tree-cover-loss-mega": 0.011145,
+    "tree-cover-loss-percent-per-year": 0.0029,
+    "development-finance": 6,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "DZ",
+    "slug": "algeria",
+    "name": "Algeria",
+    "tree-cover-loss-mega": 0.044019,
+    "tree-cover-loss-percent-per-year": 0.006,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "AD",
+    "slug": "andorra",
+    "name": "Andorra",
+    "tree-cover-loss-mega": 0.000017,
+    "tree-cover-loss-percent-per-year": 0.0001,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "AO",
+    "slug": "angola",
+    "name": "Angola",
+    "tree-cover-loss-mega": 1.067688,
+    "tree-cover-loss-percent-per-year": 0.0032,
+    "development-finance": 5,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "AG",
+    "slug": "antigua-and-barb",
+    "name": "Antigua and Barb.",
+    "tree-cover-loss-mega": 0.000133,
+    "tree-cover-loss-percent-per-year": 0.0012,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "AR",
+    "slug": "argentina",
+    "name": "Argentina",
+    "tree-cover-loss-mega": 2.188708,
+    "tree-cover-loss-percent-per-year": 0.0093,
+    "development-finance": 89,
+    "redd-plus-finance": 8,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "AM",
+    "slug": "armenia",
+    "name": "Armenia",
+    "tree-cover-loss-mega": 0.000616,
+    "tree-cover-loss-percent-per-year": 0.0003,
+    "development-finance": 4,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "AZ",
+    "slug": "azerbaijan",
+    "name": "Azerbaijan",
+    "tree-cover-loss-mega": 0.001799,
+    "tree-cover-loss-percent-per-year": 0.0002,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BS",
+    "slug": "bahamas",
+    "name": "Bahamas",
+    "tree-cover-loss-mega": 0.00496,
+    "tree-cover-loss-percent-per-year": 0.0027,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BD",
+    "slug": "bangladesh",
+    "name": "Bangladesh",
+    "tree-cover-loss-mega": 0.045689,
+    "tree-cover-loss-percent-per-year": 0.0039,
+    "development-finance": 4,
+    "redd-plus-finance": 2,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BB",
+    "slug": "barbados",
+    "name": "Barbados",
+    "tree-cover-loss-mega": 0.000162,
+    "tree-cover-loss-percent-per-year": 0.0051,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BZ",
+    "slug": "belize",
+    "name": "Belize",
+    "tree-cover-loss-mega": 0.092788,
+    "tree-cover-loss-percent-per-year": 0.0088,
+    "development-finance": null,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BJ",
+    "slug": "benin",
+    "name": "Benin",
+    "tree-cover-loss-mega": 0.007319,
+    "tree-cover-loss-percent-per-year": 0.0072,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BT",
+    "slug": "bhutan",
+    "name": "Bhutan",
+    "tree-cover-loss-mega": 0.008672,
+    "tree-cover-loss-percent-per-year": 0.0006,
+    "development-finance": 3,
+    "redd-plus-finance": 4.570465,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BO",
+    "slug": "bolivia",
+    "name": "Bolivia",
+    "tree-cover-loss-mega": 1.658542,
+    "tree-cover-loss-percent-per-year": 0.0043,
+    "development-finance": 22,
+    "redd-plus-finance": 1,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BA",
+    "slug": "bosnia-and-herz",
+    "name": "Bosnia and Herz.",
+    "tree-cover-loss-mega": 0.009259,
+    "tree-cover-loss-percent-per-year": 0.0006,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BW",
+    "slug": "botswana",
+    "name": "Botswana",
+    "tree-cover-loss-mega": 0.000097,
+    "tree-cover-loss-percent-per-year": 0.0008,
+    "development-finance": 3,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BR",
+    "slug": "brazil",
+    "name": "Brazil",
+    "tree-cover-loss-mega": 14.392306,
+    "tree-cover-loss-percent-per-year": 0.0046,
+    "development-finance": 247,
+    "redd-plus-finance": 93,
+    "results-based-finance-commitments": 1167
+  },
+  {
+    "country-id": "BN",
+    "slug": "brunei",
+    "name": "Brunei",
+    "tree-cover-loss-mega": 0.010298,
+    "tree-cover-loss-percent-per-year": 0.0032,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BF",
+    "slug": "burkina-faso",
+    "name": "Burkina Faso",
+    "tree-cover-loss-mega": 0.000023,
+    "tree-cover-loss-percent-per-year": 0.0289,
+    "development-finance": 18,
+    "redd-plus-finance": 42,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "BI",
+    "slug": "burundi",
+    "name": "Burundi",
+    "tree-cover-loss-mega": 0.008648,
+    "tree-cover-loss-percent-per-year": 0.0027,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "KH",
+    "slug": "cambodia",
+    "name": "Cambodia",
+    "tree-cover-loss-mega": 1.110207,
+    "tree-cover-loss-percent-per-year": 0.021,
+    "development-finance": 8,
+    "redd-plus-finance": 12.86316,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "CM",
+    "slug": "cameroon",
+    "name": "Cameroon",
+    "tree-cover-loss-mega": 0.482345,
+    "tree-cover-loss-percent-per-year": 0.0026,
+    "development-finance": 89,
+    "redd-plus-finance": 6.8,
+    "results-based-finance-commitments": 57.5
+  },
+  {
+    "country-id": "CV",
+    "slug": "cabo-verde",
+    "name": "Cabo Verde",
+    "tree-cover-loss-mega": 0.00004,
+    "tree-cover-loss-percent-per-year": 0.0009,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "CF",
+    "slug": "central-african-rep",
+    "name": "Central African Rep.",
+    "tree-cover-loss-mega": 0.284501,
+    "tree-cover-loss-percent-per-year": 0.001,
+    "development-finance": 1,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TD",
+    "slug": "chad",
+    "name": "Chad",
+    "tree-cover-loss-mega": 0.012153,
+    "tree-cover-loss-percent-per-year": 0.0049,
+    "development-finance": 12,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "CL",
+    "slug": "chile",
+    "name": "Chile",
+    "tree-cover-loss-mega": 0.693339,
+    "tree-cover-loss-percent-per-year": 0.006,
+    "development-finance": 1,
+    "redd-plus-finance": 10.9047,
+    "results-based-finance-commitments": 26
+  },
+  {
+    "country-id": "CN",
+    "slug": "china",
+    "name": "China",
+    "tree-cover-loss-mega": 3.29461,
+    "tree-cover-loss-percent-per-year": 0.0034,
+    "development-finance": 290,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "CO",
+    "slug": "colombia",
+    "name": "Colombia",
+    "tree-cover-loss-mega": 1.095381,
+    "tree-cover-loss-percent-per-year": 0.0022,
+    "development-finance": 66,
+    "redd-plus-finance": 31.721,
+    "results-based-finance-commitments": 308.1784
+  },
+  {
+    "country-id": "KM",
+    "slug": "comoros",
+    "name": "Comoros",
+    "tree-cover-loss-mega": 0.003975,
+    "tree-cover-loss-percent-per-year": 0.0049,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "CR",
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "tree-cover-loss-mega": 0.056028,
+    "tree-cover-loss-percent-per-year": 0.0024,
+    "development-finance": 1,
+    "redd-plus-finance": 11.214,
+    "results-based-finance-commitments": 60
+  },
+  {
+    "country-id": "CI",
+    "slug": "cote-d-ivoire",
+    "name": "Côte d'Ivoire",
+    "tree-cover-loss-mega": 0.988288,
+    "tree-cover-loss-percent-per-year": 0.0111,
+    "development-finance": 17,
+    "redd-plus-finance": 18.431,
+    "results-based-finance-commitments": 82.5
+  },
+  {
+    "country-id": "CU",
+    "slug": "cuba",
+    "name": "Cuba",
+    "tree-cover-loss-mega": 0.053925,
+    "tree-cover-loss-percent-per-year": 0.0022,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "CD",
+    "slug": "dem-rep-congo",
+    "name": "Dem. Rep. Congo",
+    "tree-cover-loss-mega": 5.056326,
+    "tree-cover-loss-percent-per-year": 0.0042,
+    "development-finance": 75,
+    "redd-plus-finance": 104.788,
+    "results-based-finance-commitments": 50
+  },
+  {
+    "country-id": "DM",
+    "slug": "dominica",
+    "name": "Dominica",
+    "tree-cover-loss-mega": 0.000318,
+    "tree-cover-loss-percent-per-year": 0.0007,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "DO",
+    "slug": "dominican-rep",
+    "name": "Dominican Rep.",
+    "tree-cover-loss-mega": 0.08644,
+    "tree-cover-loss-percent-per-year": 0.0056,
+    "development-finance": 1,
+    "redd-plus-finance": 4.89316,
+    "results-based-finance-commitments": 37.5
+  },
+  {
+    "country-id": "EC",
+    "slug": "ecuador",
+    "name": "Ecuador",
+    "tree-cover-loss-mega": 0.261847,
+    "tree-cover-loss-percent-per-year": 0.0023,
+    "development-finance": 14,
+    "redd-plus-finance": 45,
+    "results-based-finance-commitments": 90
+  },
+  {
+    "country-id": "EG",
+    "slug": "egypt",
+    "name": "Egypt",
+    "tree-cover-loss-mega": 0.000883,
+    "tree-cover-loss-percent-per-year": 0.001,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SV",
+    "slug": "el-salvador",
+    "name": "El Salvador",
+    "tree-cover-loss-mega": 0.015413,
+    "tree-cover-loss-percent-per-year": 0.0026,
+    "development-finance": 1,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "GQ",
+    "slug": "eq-guinea",
+    "name": "Eq. Guinea",
+    "tree-cover-loss-mega": 0.053221,
+    "tree-cover-loss-percent-per-year": 0.0033,
+    "development-finance": 1,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "ET",
+    "slug": "ethiopia",
+    "name": "Ethiopia",
+    "tree-cover-loss-mega": 0.151132,
+    "tree-cover-loss-percent-per-year": 0.0021,
+    "development-finance": 39,
+    "redd-plus-finance": 105,
+    "results-based-finance-commitments": 50
+  },
+  {
+    "country-id": "FJ",
+    "slug": "fiji",
+    "name": "Fiji",
+    "tree-cover-loss-mega": 0.012346,
+    "tree-cover-loss-percent-per-year": 0.0013,
+    "development-finance": 1,
+    "redd-plus-finance": 4.013572,
+    "results-based-finance-commitments": 18
+  },
+  {
+    "country-id": "GA",
+    "slug": "gabon",
+    "name": "Gabon",
+    "tree-cover-loss-mega": 0.164985,
+    "tree-cover-loss-percent-per-year": 0.0011,
+    "development-finance": 12,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "GM",
+    "slug": "gambia",
+    "name": "Gambia",
+    "tree-cover-loss-mega": 0.000135,
+    "tree-cover-loss-percent-per-year": 0.0049,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "GE",
+    "slug": "georgia",
+    "name": "Georgia",
+    "tree-cover-loss-mega": 0.00224,
+    "tree-cover-loss-percent-per-year": 0.0001,
+    "development-finance": 8,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "GH",
+    "slug": "ghana",
+    "name": "Ghana",
+    "tree-cover-loss-mega": 0.351302,
+    "tree-cover-loss-percent-per-year": 0.0084,
+    "development-finance": 24,
+    "redd-plus-finance": 83.755525,
+    "results-based-finance-commitments": 92.5
+  },
+  {
+    "country-id": "GD",
+    "slug": "grenada",
+    "name": "Grenada",
+    "tree-cover-loss-mega": 0.000355,
+    "tree-cover-loss-percent-per-year": 0.0021,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "GT",
+    "slug": "guatemala",
+    "name": "Guatemala",
+    "tree-cover-loss-mega": 0.355427,
+    "tree-cover-loss-percent-per-year": 0.0077,
+    "development-finance": 3,
+    "redd-plus-finance": 9.591544,
+    "results-based-finance-commitments": 52.5
+  },
+  {
+    "country-id": "GN",
+    "slug": "guinea",
+    "name": "Guinea",
+    "tree-cover-loss-mega": 0.508889,
+    "tree-cover-loss-percent-per-year": 0.0104,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "GW",
+    "slug": "guinea-bissau",
+    "name": "Guinea-Bissau",
+    "tree-cover-loss-mega": 0.05892,
+    "tree-cover-loss-percent-per-year": 0.0092,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "GY",
+    "slug": "guyana",
+    "name": "Guyana",
+    "tree-cover-loss-mega": 0.063929,
+    "tree-cover-loss-percent-per-year": 0.0006,
+    "development-finance": 1,
+    "redd-plus-finance": 73.73769,
+    "results-based-finance-commitments": 200
+  },
+  {
+    "country-id": "HT",
+    "slug": "haiti",
+    "name": "Haiti",
+    "tree-cover-loss-mega": 0.019049,
+    "tree-cover-loss-percent-per-year": 0.0037,
+    "development-finance": 3,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "HN",
+    "slug": "honduras",
+    "name": "Honduras",
+    "tree-cover-loss-mega": 0.282318,
+    "tree-cover-loss-percent-per-year": 0.0061,
+    "development-finance": 31,
+    "redd-plus-finance": 7,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "IN",
+    "slug": "india",
+    "name": "India",
+    "tree-cover-loss-mega": 0.570462,
+    "tree-cover-loss-percent-per-year": 0.0024,
+    "development-finance": 372,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "ID",
+    "slug": "indonesia",
+    "name": "Indonesia",
+    "tree-cover-loss-mega": 9.872937,
+    "tree-cover-loss-percent-per-year": 0.0102,
+    "development-finance": 181,
+    "redd-plus-finance": 245.719,
+    "results-based-finance-commitments": 972
+  },
+  {
+    "country-id": "IR",
+    "slug": "iran",
+    "name": "Iran",
+    "tree-cover-loss-mega": 0.000992,
+    "tree-cover-loss-percent-per-year": 0.0001,
+    "development-finance": 6,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "IQ",
+    "slug": "iraq",
+    "name": "Iraq",
+    "tree-cover-loss-mega": 0.00003,
+    "tree-cover-loss-percent-per-year": 0.0003,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "IL",
+    "slug": "israel",
+    "name": "Israel",
+    "tree-cover-loss-mega": 0.001423,
+    "tree-cover-loss-percent-per-year": 0.008,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "JM",
+    "slug": "jamaica",
+    "name": "Jamaica",
+    "tree-cover-loss-mega": 0.014423,
+    "tree-cover-loss-percent-per-year": 0.0031,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "JO",
+    "slug": "jordan",
+    "name": "Jordan",
+    "tree-cover-loss-mega": 0.000001,
+    "tree-cover-loss-percent-per-year": 0.0001,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "KZ",
+    "slug": "kazakhstan",
+    "name": "Kazakhstan",
+    "tree-cover-loss-mega": 0.015343,
+    "tree-cover-loss-percent-per-year": 0.0006,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "KE",
+    "slug": "kenya",
+    "name": "Kenya",
+    "tree-cover-loss-mega": 0.102428,
+    "tree-cover-loss-percent-per-year": 0.0051,
+    "development-finance": 18,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "KG",
+    "slug": "kyrgyzstan",
+    "name": "Kyrgyzstan",
+    "tree-cover-loss-mega": 0.000498,
+    "tree-cover-loss-percent-per-year": 0.0001,
+    "development-finance": 4,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "LA",
+    "slug": "laos",
+    "name": "Laos",
+    "tree-cover-loss-mega": 1.179888,
+    "tree-cover-loss-percent-per-year": 0.0103,
+    "development-finance": 73,
+    "redd-plus-finance": 81.0077,
+    "results-based-finance-commitments": 42
+  },
+  {
+    "country-id": "LB",
+    "slug": "lebanon",
+    "name": "Lebanon",
+    "tree-cover-loss-mega": 0.000918,
+    "tree-cover-loss-percent-per-year": 0.0023,
+    "development-finance": 2,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "LS",
+    "slug": "lesotho",
+    "name": "Lesotho",
+    "tree-cover-loss-mega": 0.000031,
+    "tree-cover-loss-percent-per-year": 0.0009,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "LR",
+    "slug": "liberia",
+    "name": "Liberia",
+    "tree-cover-loss-mega": 0.63251,
+    "tree-cover-loss-percent-per-year": 0.0112,
+    "development-finance": 21,
+    "redd-plus-finance": 9,
+    "results-based-finance-commitments": 62
+  },
+  {
+    "country-id": "LY",
+    "slug": "libya",
+    "name": "Libya",
+    "tree-cover-loss-mega": 0.00011,
+    "tree-cover-loss-percent-per-year": 0.0027,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MK",
+    "slug": "macedonia",
+    "name": "Macedonia",
+    "tree-cover-loss-mega": 0.011067,
+    "tree-cover-loss-percent-per-year": 0.0024,
+    "development-finance": 3,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MG",
+    "slug": "madagascar",
+    "name": "Madagascar",
+    "tree-cover-loss-mega": 1.415832,
+    "tree-cover-loss-percent-per-year": 0.0138,
+    "development-finance": 3,
+    "redd-plus-finance": 9.312,
+    "results-based-finance-commitments": 82
+  },
+  {
+    "country-id": "MW",
+    "slug": "malawi",
+    "name": "Malawi",
+    "tree-cover-loss-mega": 0.064306,
+    "tree-cover-loss-percent-per-year": 0.007,
+    "development-finance": 32,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MY",
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "tree-cover-loss-mega": 2.95361,
+    "tree-cover-loss-percent-per-year": 0.0167,
+    "development-finance": 6,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MV",
+    "slug": "maldives",
+    "name": "Maldives",
+    "tree-cover-loss-mega": 0.000023,
+    "tree-cover-loss-percent-per-year": 0.0007,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "ML",
+    "slug": "mali",
+    "name": "Mali",
+    "tree-cover-loss-mega": 0.001183,
+    "tree-cover-loss-percent-per-year": 0.0079,
+    "development-finance": 18,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MU",
+    "slug": "mauritius",
+    "name": "Mauritius",
+    "tree-cover-loss-mega": 0.001414,
+    "tree-cover-loss-percent-per-year": 0.0033,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MX",
+    "slug": "mexico",
+    "name": "Mexico",
+    "tree-cover-loss-mega": 1.115702,
+    "tree-cover-loss-percent-per-year": 0.0035,
+    "development-finance": 11,
+    "redd-plus-finance": 97.774,
+    "results-based-finance-commitments": 73.5
+  },
+  {
+    "country-id": "FM",
+    "slug": "micronesia",
+    "name": "Micronesia",
+    "tree-cover-loss-mega": 0.000077,
+    "tree-cover-loss-percent-per-year": 0.0021,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MD",
+    "slug": "moldova",
+    "name": "Moldova",
+    "tree-cover-loss-mega": 0.003161,
+    "tree-cover-loss-percent-per-year": 0.0015,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MN",
+    "slug": "mongolia",
+    "name": "Mongolia",
+    "tree-cover-loss-mega": 0.055252,
+    "tree-cover-loss-percent-per-year": 0.0023,
+    "development-finance": 12,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "ME",
+    "slug": "montenegro",
+    "name": "Montenegro",
+    "tree-cover-loss-mega": 0.005984,
+    "tree-cover-loss-percent-per-year": 0.0016,
+    "development-finance": 2,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MA",
+    "slug": "morocco",
+    "name": "Morocco",
+    "tree-cover-loss-mega": 0.009541,
+    "tree-cover-loss-percent-per-year": 0.0025,
+    "development-finance": 48,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "MZ",
+    "slug": "mozambique",
+    "name": "Mozambique",
+    "tree-cover-loss-mega": 1.029277,
+    "tree-cover-loss-percent-per-year": 0.0059,
+    "development-finance": 67,
+    "redd-plus-finance": 9,
+    "results-based-finance-commitments": 43.5
+  },
+  {
+    "country-id": "MM",
+    "slug": "myanmar",
+    "name": "Myanmar",
+    "tree-cover-loss-mega": 1.403656,
+    "tree-cover-loss-percent-per-year": 0.0055,
+    "development-finance": 25,
+    "redd-plus-finance": 8,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "NA",
+    "slug": "namibia",
+    "name": "Namibia",
+    "tree-cover-loss-mega": 0.00013,
+    "tree-cover-loss-percent-per-year": 0.0057,
+    "development-finance": 1,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "NP",
+    "slug": "nepal",
+    "name": "Nepal",
+    "tree-cover-loss-mega": 0.012786,
+    "tree-cover-loss-percent-per-year": 0.0004,
+    "development-finance": 34,
+    "redd-plus-finance": 9.818,
+    "results-based-finance-commitments": 70
+  },
+  {
+    "country-id": "NI",
+    "slug": "nicaragua",
+    "name": "Nicaragua",
+    "tree-cover-loss-mega": 0.444658,
+    "tree-cover-loss-percent-per-year": 0.0095,
+    "development-finance": 13,
+    "redd-plus-finance": 9.1,
+    "results-based-finance-commitments": 55
+  },
+  {
+    "country-id": "NG",
+    "slug": "nigeria",
+    "name": "Nigeria",
+    "tree-cover-loss-mega": 0.274644,
+    "tree-cover-loss-percent-per-year": 0.0046,
+    "development-finance": null,
+    "redd-plus-finance": 8,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "KP",
+    "slug": "north-korea",
+    "name": "North Korea",
+    "tree-cover-loss-mega": 0.06796,
+    "tree-cover-loss-percent-per-year": 0.0022,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "PK",
+    "slug": "pakistan",
+    "name": "Pakistan",
+    "tree-cover-loss-mega": 0.001523,
+    "tree-cover-loss-percent-per-year": 0.0003,
+    "development-finance": 9,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "PW",
+    "slug": "palau",
+    "name": "Palau",
+    "tree-cover-loss-mega": 0.000206,
+    "tree-cover-loss-percent-per-year": 0.0008,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "PS",
+    "slug": "palestine",
+    "name": "Palestine",
+    "tree-cover-loss-mega": 0.000004,
+    "tree-cover-loss-percent-per-year": 0.001,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "PA",
+    "slug": "panama",
+    "name": "Panama",
+    "tree-cover-loss-mega": 0.094181,
+    "tree-cover-loss-percent-per-year": 0.0028,
+    "development-finance": 3,
+    "redd-plus-finance": 12,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "PG",
+    "slug": "papua-new-guinea",
+    "name": "Papua New Guinea",
+    "tree-cover-loss-mega": 0.538312,
+    "tree-cover-loss-percent-per-year": 0.0021,
+    "development-finance": 18,
+    "redd-plus-finance": 14,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "PY",
+    "slug": "paraguay",
+    "name": "Paraguay",
+    "tree-cover-loss-mega": 2.353402,
+    "tree-cover-loss-percent-per-year": 0.0161,
+    "development-finance": 5,
+    "redd-plus-finance": 11,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "PE",
+    "slug": "peru",
+    "name": "Peru",
+    "tree-cover-loss-mega": 1.124439,
+    "tree-cover-loss-percent-per-year": 0.0024,
+    "development-finance": 30,
+    "redd-plus-finance": 43.98,
+    "results-based-finance-commitments": 274
+  },
+  {
+    "country-id": "PH",
+    "slug": "philippines",
+    "name": "Philippines",
+    "tree-cover-loss-mega": 0.422712,
+    "tree-cover-loss-percent-per-year": 0.0038,
+    "development-finance": 121,
+    "redd-plus-finance": 14,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "CG",
+    "slug": "congo",
+    "name": "Congo",
+    "tree-cover-loss-mega": 0.280492,
+    "tree-cover-loss-percent-per-year": 0.0018,
+    "development-finance": 8,
+    "redd-plus-finance": 13,
+    "results-based-finance-commitments": 58.5
+  },
+  {
+    "country-id": "RW",
+    "slug": "rwanda",
+    "name": "Rwanda",
+    "tree-cover-loss-mega": 0.012071,
+    "tree-cover-loss-percent-per-year": 0.004,
+    "development-finance": 19,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "KN",
+    "slug": "st-kitts-and-nevis",
+    "name": "St. Kitts and Nevis",
+    "tree-cover-loss-mega": 0.000052,
+    "tree-cover-loss-percent-per-year": 0.0007,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "LC",
+    "slug": "saint-lucia",
+    "name": "Saint Lucia",
+    "tree-cover-loss-mega": 0.000313,
+    "tree-cover-loss-percent-per-year": 0.001,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "VC",
+    "slug": "st-vin-and-gren",
+    "name": "St. Vin. and Gren.",
+    "tree-cover-loss-mega": 0.000147,
+    "tree-cover-loss-percent-per-year": 0.0008,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SM",
+    "slug": "san-marino",
+    "name": "San Marino",
+    "tree-cover-loss-mega": 0.000001,
+    "tree-cover-loss-percent-per-year": 0.0002,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SN",
+    "slug": "senegal",
+    "name": "Senegal",
+    "tree-cover-loss-mega": 0.00135,
+    "tree-cover-loss-percent-per-year": 0.0057,
+    "development-finance": 4,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "RS",
+    "slug": "serbia",
+    "name": "Serbia",
+    "tree-cover-loss-mega": 0.018152,
+    "tree-cover-loss-percent-per-year": 0.0011,
+    "development-finance": 1,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SC",
+    "slug": "seychelles",
+    "name": "Seychelles",
+    "tree-cover-loss-mega": 0.000004,
+    "tree-cover-loss-percent-per-year": 0.0001,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SL",
+    "slug": "sierra-leone",
+    "name": "Sierra Leone",
+    "tree-cover-loss-mega": 0.62362,
+    "tree-cover-loss-percent-per-year": 0.0185,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SG",
+    "slug": "singapore",
+    "name": "Singapore",
+    "tree-cover-loss-mega": 0.000582,
+    "tree-cover-loss-percent-per-year": 0.0052,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SB",
+    "slug": "solomon-is",
+    "name": "Solomon Is.",
+    "tree-cover-loss-mega": 0.062466,
+    "tree-cover-loss-percent-per-year": 0.0038,
+    "development-finance": 8,
+    "redd-plus-finance": 1,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SO",
+    "slug": "somalia",
+    "name": "Somalia",
+    "tree-cover-loss-mega": 0.001024,
+    "tree-cover-loss-percent-per-year": 0.002,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "ZA",
+    "slug": "south-africa",
+    "name": "South Africa",
+    "tree-cover-loss-mega": 0.412465,
+    "tree-cover-loss-percent-per-year": 0.0115,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "KR",
+    "slug": "south-korea",
+    "name": "South Korea",
+    "tree-cover-loss-mega": 0.082313,
+    "tree-cover-loss-percent-per-year": 0.0026,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SS",
+    "slug": "s-sudan",
+    "name": "S. Sudan",
+    "tree-cover-loss-mega": 0.033678,
+    "tree-cover-loss-percent-per-year": 0.0005,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "LK",
+    "slug": "sri-lanka",
+    "name": "Sri Lanka",
+    "tree-cover-loss-mega": 0.064102,
+    "tree-cover-loss-percent-per-year": 0.0027,
+    "development-finance": 0,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SD",
+    "slug": "sudan",
+    "name": "Sudan",
+    "tree-cover-loss-mega": 0.000283,
+    "tree-cover-loss-percent-per-year": 0.0006,
+    "development-finance": 0,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SR",
+    "slug": "suriname",
+    "name": "Suriname",
+    "tree-cover-loss-mega": 0.069071,
+    "tree-cover-loss-percent-per-year": 0.0008,
+    "development-finance": 1,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SZ",
+    "slug": "eswatini",
+    "name": "Eswatini",
+    "tree-cover-loss-mega": 0.024112,
+    "tree-cover-loss-percent-per-year": 0.0086,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "SY",
+    "slug": "syria",
+    "name": "Syria",
+    "tree-cover-loss-mega": 0.010389,
+    "tree-cover-loss-percent-per-year": 0.0163,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TJ",
+    "slug": "tajikistan",
+    "name": "Tajikistan",
+    "tree-cover-loss-mega": 0.000059,
+    "tree-cover-loss-percent-per-year": 0.0002,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TZ",
+    "slug": "tanzania",
+    "name": "Tanzania",
+    "tree-cover-loss-mega": 0.922424,
+    "tree-cover-loss-percent-per-year": 0.0058,
+    "development-finance": 23,
+    "redd-plus-finance": 65,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TH",
+    "slug": "thailand",
+    "name": "Thailand",
+    "tree-cover-loss-mega": 0.687214,
+    "tree-cover-loss-percent-per-year": 0.0057,
+    "development-finance": 5,
+    "redd-plus-finance": 6,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TL",
+    "slug": "timor-leste",
+    "name": "Timor-Leste",
+    "tree-cover-loss-mega": 0.007207,
+    "tree-cover-loss-percent-per-year": 0.0017,
+    "development-finance": 5,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TG",
+    "slug": "togo",
+    "name": "Togo",
+    "tree-cover-loss-mega": 0.009936,
+    "tree-cover-loss-percent-per-year": 0.003,
+    "development-finance": 7,
+    "redd-plus-finance": 5.376,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TT",
+    "slug": "trinidad-and-tobago",
+    "name": "Trinidad and Tobago",
+    "tree-cover-loss-mega": 0.007492,
+    "tree-cover-loss-percent-per-year": 0.0032,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TN",
+    "slug": "tunisia",
+    "name": "Tunisia",
+    "tree-cover-loss-mega": 0.009582,
+    "tree-cover-loss-percent-per-year": 0.0071,
+    "development-finance": 2,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "TM",
+    "slug": "turkmenistan",
+    "name": "Turkmenistan",
+    "tree-cover-loss-mega": 0.000036,
+    "tree-cover-loss-percent-per-year": 0.0006,
+    "development-finance": null,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "UG",
+    "slug": "uganda",
+    "name": "Uganda",
+    "tree-cover-loss-mega": 0.285131,
+    "tree-cover-loss-percent-per-year": 0.0061,
+    "development-finance": 22,
+    "redd-plus-finance": 6,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "UY",
+    "slug": "uruguay",
+    "name": "Uruguay",
+    "tree-cover-loss-mega": 0.139669,
+    "tree-cover-loss-percent-per-year": 0.0137,
+    "development-finance": 40,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "UZ",
+    "slug": "uzbekistan",
+    "name": "Uzbekistan",
+    "tree-cover-loss-mega": 0.000229,
+    "tree-cover-loss-percent-per-year": 0.0004,
+    "development-finance": 3,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "VU",
+    "slug": "vanuatu",
+    "name": "Vanuatu",
+    "tree-cover-loss-mega": 0.006335,
+    "tree-cover-loss-percent-per-year": 0.0009,
+    "development-finance": 1,
+    "redd-plus-finance": 4,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "VE",
+    "slug": "venezuela",
+    "name": "Venezuela",
+    "tree-cover-loss-mega": 0.508621,
+    "tree-cover-loss-percent-per-year": 0.0015,
+    "development-finance": 8,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  },
+  {
+    "country-id": "VN",
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "tree-cover-loss-mega": 1.054323,
+    "tree-cover-loss-percent-per-year": 0.0106,
+    "development-finance": 168,
+    "redd-plus-finance": 25.185,
+    "results-based-finance-commitments": 51.5
+  },
+  {
+    "country-id": "ZM",
+    "slug": "zambia",
+    "name": "Zambia",
+    "tree-cover-loss-mega": 0.651755,
+    "tree-cover-loss-percent-per-year": 0.0045,
+    "development-finance": 16,
+    "redd-plus-finance": 18,
+    "results-based-finance-commitments": 30
+  },
+  {
+    "country-id": "ZW",
+    "slug": "zimbabwe",
+    "name": "Zimbabwe",
+    "tree-cover-loss-mega": 0.061015,
+    "tree-cover-loss-percent-per-year": 0.0072,
+    "development-finance": 0,
+    "redd-plus-finance": 0,
+    "results-based-finance-commitments": 0
+  }
+]
