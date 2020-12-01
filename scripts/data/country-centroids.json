@@ -1,0 +1,1930 @@
+[
+  {
+    "code": "ID",
+    "country-id": "indonesia",
+    "centroid": [
+      117.24,
+      -2.22
+    ]
+  },
+  {
+    "code": "MY",
+    "country-id": "malaysia",
+    "centroid": [
+      109.7,
+      3.79
+    ]
+  },
+  {
+    "code": "CL",
+    "country-id": "chile",
+    "centroid": [
+      -71.38,
+      -37.73
+    ]
+  },
+  {
+    "code": "BO",
+    "country-id": "bolivia",
+    "centroid": [
+      -64.69,
+      -16.71
+    ]
+  },
+  {
+    "code": "PE",
+    "country-id": "peru",
+    "centroid": [
+      -74.38,
+      -9.15
+    ]
+  },
+  {
+    "code": "AR",
+    "country-id": "argentina",
+    "centroid": [
+      -65.18,
+      -35.38
+    ]
+  },
+  {
+    "code": "CY",
+    "country-id": "cyprus",
+    "centroid": [
+      33.01,
+      34.92
+    ]
+  },
+  {
+    "code": "IN",
+    "country-id": "india",
+    "centroid": [
+      79.61,
+      22.89
+    ]
+  },
+  {
+    "code": "CN",
+    "country-id": "china",
+    "centroid": [
+      103.82,
+      36.56
+    ]
+  },
+  {
+    "code": "IL",
+    "country-id": "israel",
+    "centroid": [
+      35,
+      31.46
+    ]
+  },
+  {
+    "code": "PS",
+    "country-id": "palestine",
+    "centroid": [
+      35.2,
+      31.92
+    ]
+  },
+  {
+    "code": "LB",
+    "country-id": "lebanon",
+    "centroid": [
+      35.88,
+      33.92
+    ]
+  },
+  {
+    "code": "ET",
+    "country-id": "ethiopia",
+    "centroid": [
+      39.6,
+      8.62
+    ]
+  },
+  {
+    "code": "SS",
+    "country-id": "s-sudan",
+    "centroid": [
+      30.25,
+      7.31
+    ]
+  },
+  {
+    "code": "SO",
+    "country-id": "somalia",
+    "centroid": [
+      45.71,
+      4.75
+    ]
+  },
+  {
+    "code": "KE",
+    "country-id": "kenya",
+    "centroid": [
+      37.8,
+      0.6
+    ]
+  },
+  {
+    "code": "PK",
+    "country-id": "pakistan",
+    "centroid": [
+      69.34,
+      29.95
+    ]
+  },
+  {
+    "code": "MW",
+    "country-id": "malawi",
+    "centroid": [
+      34.29,
+      -13.22
+    ]
+  },
+  {
+    "code": "TZ",
+    "country-id": "tanzania",
+    "centroid": [
+      34.81,
+      -6.28
+    ]
+  },
+  {
+    "code": "SY",
+    "country-id": "syria",
+    "centroid": [
+      38.51,
+      35.03
+    ]
+  },
+  {
+    "code": "-99",
+    "country-id": "somaliland",
+    "centroid": [
+      46.25,
+      9.73
+    ]
+  },
+  {
+    "code": "FR",
+    "country-id": "france",
+    "centroid": [
+      -2.76,
+      42.17
+    ]
+  },
+  {
+    "code": "SR",
+    "country-id": "suriname",
+    "centroid": [
+      -55.91,
+      4.13
+    ]
+  },
+  {
+    "code": "GY",
+    "country-id": "guyana",
+    "centroid": [
+      -58.98,
+      4.79
+    ]
+  },
+  {
+    "code": "KR",
+    "country-id": "south-korea",
+    "centroid": [
+      127.84,
+      36.39
+    ]
+  },
+  {
+    "code": "KP",
+    "country-id": "north-korea",
+    "centroid": [
+      127.19,
+      40.15
+    ]
+  },
+  {
+    "code": "MA",
+    "country-id": "morocco",
+    "centroid": [
+      -8.46,
+      29.84
+    ]
+  },
+  {
+    "code": "EH",
+    "country-id": "w-sahara",
+    "centroid": [
+      -12.22,
+      24.23
+    ]
+  },
+  {
+    "code": "CR",
+    "country-id": "costa-rica",
+    "centroid": [
+      -84.19,
+      9.98
+    ]
+  },
+  {
+    "code": "NI",
+    "country-id": "nicaragua",
+    "centroid": [
+      -85.03,
+      12.85
+    ]
+  },
+  {
+    "code": "CG",
+    "country-id": "congo",
+    "centroid": [
+      15.22,
+      -0.84
+    ]
+  },
+  {
+    "code": "CD",
+    "country-id": "dem-rep-congo",
+    "centroid": [
+      23.64,
+      -2.88
+    ]
+  },
+  {
+    "code": "BT",
+    "country-id": "bhutan",
+    "centroid": [
+      90.4,
+      27.41
+    ]
+  },
+  {
+    "code": "UA",
+    "country-id": "ukraine",
+    "centroid": [
+      31.25,
+      49.16
+    ]
+  },
+  {
+    "code": "BY",
+    "country-id": "belarus",
+    "centroid": [
+      28.03,
+      53.53
+    ]
+  },
+  {
+    "code": "NA",
+    "country-id": "namibia",
+    "centroid": [
+      17.21,
+      -22.13
+    ]
+  },
+  {
+    "code": "ZA",
+    "country-id": "south-africa",
+    "centroid": [
+      25.08,
+      -29
+    ]
+  },
+  {
+    "code": "MF",
+    "country-id": "st-martin",
+    "centroid": [
+      -63.06,
+      18.09
+    ]
+  },
+  {
+    "code": "SX",
+    "country-id": "sint-maarten",
+    "centroid": [
+      -63.06,
+      18.05
+    ]
+  },
+  {
+    "code": "OM",
+    "country-id": "oman",
+    "centroid": [
+      56.09,
+      20.61
+    ]
+  },
+  {
+    "code": "UZ",
+    "country-id": "uzbekistan",
+    "centroid": [
+      63.14,
+      41.76
+    ]
+  },
+  {
+    "code": "KZ",
+    "country-id": "kazakhstan",
+    "centroid": [
+      67.29,
+      48.16
+    ]
+  },
+  {
+    "code": "TJ",
+    "country-id": "tajikistan",
+    "centroid": [
+      71.01,
+      38.53
+    ]
+  },
+  {
+    "code": "LT",
+    "country-id": "lithuania",
+    "centroid": [
+      23.89,
+      55.33
+    ]
+  },
+  {
+    "code": "BR",
+    "country-id": "brazil",
+    "centroid": [
+      -53.1,
+      -10.79
+    ]
+  },
+  {
+    "code": "UY",
+    "country-id": "uruguay",
+    "centroid": [
+      -56.02,
+      -32.8
+    ]
+  },
+  {
+    "code": "MN",
+    "country-id": "mongolia",
+    "centroid": [
+      103.05,
+      46.83
+    ]
+  },
+  {
+    "code": "RU",
+    "country-id": "russia",
+    "centroid": [
+      96.62,
+      61.96
+    ]
+  },
+  {
+    "code": "CZ",
+    "country-id": "czechia",
+    "centroid": [
+      15.31,
+      49.73
+    ]
+  },
+  {
+    "code": "DE",
+    "country-id": "germany",
+    "centroid": [
+      10.39,
+      51.11
+    ]
+  },
+  {
+    "code": "EE",
+    "country-id": "estonia",
+    "centroid": [
+      25.54,
+      58.67
+    ]
+  },
+  {
+    "code": "LV",
+    "country-id": "latvia",
+    "centroid": [
+      24.91,
+      56.85
+    ]
+  },
+  {
+    "code": "NO",
+    "country-id": "norway",
+    "centroid": [
+      15.35,
+      68.75
+    ]
+  },
+  {
+    "code": "SE",
+    "country-id": "sweden",
+    "centroid": [
+      16.75,
+      62.78
+    ]
+  },
+  {
+    "code": "FI",
+    "country-id": "finland",
+    "centroid": [
+      26.27,
+      64.5
+    ]
+  },
+  {
+    "code": "VN",
+    "country-id": "vietnam",
+    "centroid": [
+      106.3,
+      16.65
+    ]
+  },
+  {
+    "code": "KH",
+    "country-id": "cambodia",
+    "centroid": [
+      104.91,
+      12.72
+    ]
+  },
+  {
+    "code": "LU",
+    "country-id": "luxembourg",
+    "centroid": [
+      6.07,
+      49.77
+    ]
+  },
+  {
+    "code": "AE",
+    "country-id": "united-arab-emirates",
+    "centroid": [
+      54.3,
+      23.91
+    ]
+  },
+  {
+    "code": "BE",
+    "country-id": "belgium",
+    "centroid": [
+      4.64,
+      50.64
+    ]
+  },
+  {
+    "code": "GE",
+    "country-id": "georgia",
+    "centroid": [
+      43.51,
+      42.17
+    ]
+  },
+  {
+    "code": "MK",
+    "country-id": "macedonia",
+    "centroid": [
+      21.68,
+      41.6
+    ]
+  },
+  {
+    "code": "AL",
+    "country-id": "albania",
+    "centroid": [
+      20.05,
+      41.14
+    ]
+  },
+  {
+    "code": "AZ",
+    "country-id": "azerbaijan",
+    "centroid": [
+      47.55,
+      40.29
+    ]
+  },
+  {
+    "code": "XK",
+    "country-id": "kosovo",
+    "centroid": [
+      20.87,
+      42.57
+    ]
+  },
+  {
+    "code": "TR",
+    "country-id": "turkey",
+    "centroid": [
+      35.17,
+      39.06
+    ]
+  },
+  {
+    "code": "ES",
+    "country-id": "spain",
+    "centroid": [
+      -3.65,
+      40.24
+    ]
+  },
+  {
+    "code": "LA",
+    "country-id": "laos",
+    "centroid": [
+      103.74,
+      18.5
+    ]
+  },
+  {
+    "code": "KG",
+    "country-id": "kyrgyzstan",
+    "centroid": [
+      74.54,
+      41.46
+    ]
+  },
+  {
+    "code": "AM",
+    "country-id": "armenia",
+    "centroid": [
+      44.93,
+      40.29
+    ]
+  },
+  {
+    "code": "DK",
+    "country-id": "denmark",
+    "centroid": [
+      10.03,
+      55.98
+    ]
+  },
+  {
+    "code": "LY",
+    "country-id": "libya",
+    "centroid": [
+      18.01,
+      27.03
+    ]
+  },
+  {
+    "code": "TN",
+    "country-id": "tunisia",
+    "centroid": [
+      9.55,
+      34.12
+    ]
+  },
+  {
+    "code": "RO",
+    "country-id": "romania",
+    "centroid": [
+      24.97,
+      45.85
+    ]
+  },
+  {
+    "code": "HU",
+    "country-id": "hungary",
+    "centroid": [
+      19.4,
+      47.16
+    ]
+  },
+  {
+    "code": "SK",
+    "country-id": "slovakia",
+    "centroid": [
+      19.48,
+      48.71
+    ]
+  },
+  {
+    "code": "PL",
+    "country-id": "poland",
+    "centroid": [
+      19.39,
+      52.13
+    ]
+  },
+  {
+    "code": "IE",
+    "country-id": "ireland",
+    "centroid": [
+      -8.14,
+      53.18
+    ]
+  },
+  {
+    "code": "GB",
+    "country-id": "united-kingdom",
+    "centroid": [
+      -2.87,
+      54.12
+    ]
+  },
+  {
+    "code": "GR",
+    "country-id": "greece",
+    "centroid": [
+      22.96,
+      39.07
+    ]
+  },
+  {
+    "code": "ZM",
+    "country-id": "zambia",
+    "centroid": [
+      27.77,
+      -13.46
+    ]
+  },
+  {
+    "code": "SL",
+    "country-id": "sierra-leone",
+    "centroid": [
+      -11.79,
+      8.56
+    ]
+  },
+  {
+    "code": "GN",
+    "country-id": "guinea",
+    "centroid": [
+      -10.94,
+      10.44
+    ]
+  },
+  {
+    "code": "LR",
+    "country-id": "liberia",
+    "centroid": [
+      -9.32,
+      6.45
+    ]
+  },
+  {
+    "code": "CF",
+    "country-id": "central-african-rep",
+    "centroid": [
+      20.47,
+      6.57
+    ]
+  },
+  {
+    "code": "SD",
+    "country-id": "sudan",
+    "centroid": [
+      29.94,
+      15.99
+    ]
+  },
+  {
+    "code": "DJ",
+    "country-id": "djibouti",
+    "centroid": [
+      42.56,
+      11.75
+    ]
+  },
+  {
+    "code": "ER",
+    "country-id": "eritrea",
+    "centroid": [
+      38.85,
+      15.36
+    ]
+  },
+  {
+    "code": "AT",
+    "country-id": "austria",
+    "centroid": [
+      14.13,
+      47.59
+    ]
+  },
+  {
+    "code": "IQ",
+    "country-id": "iraq",
+    "centroid": [
+      43.74,
+      33.04
+    ]
+  },
+  {
+    "code": "IT",
+    "country-id": "italy",
+    "centroid": [
+      12.07,
+      42.8
+    ]
+  },
+  {
+    "code": "CH",
+    "country-id": "switzerland",
+    "centroid": [
+      8.21,
+      46.8
+    ]
+  },
+  {
+    "code": "IR",
+    "country-id": "iran",
+    "centroid": [
+      54.27,
+      32.58
+    ]
+  },
+  {
+    "code": "NL",
+    "country-id": "netherlands",
+    "centroid": [
+      5.28,
+      52.1
+    ]
+  },
+  {
+    "code": "LI",
+    "country-id": "liechtenstein",
+    "centroid": [
+      9.54,
+      47.14
+    ]
+  },
+  {
+    "code": "CI",
+    "country-id": "cote-d-ivoire",
+    "centroid": [
+      -5.57,
+      7.63
+    ]
+  },
+  {
+    "code": "RS",
+    "country-id": "serbia",
+    "centroid": [
+      20.79,
+      44.22
+    ]
+  },
+  {
+    "code": "ML",
+    "country-id": "mali",
+    "centroid": [
+      -3.54,
+      17.35
+    ]
+  },
+  {
+    "code": "SN",
+    "country-id": "senegal",
+    "centroid": [
+      -14.47,
+      14.37
+    ]
+  },
+  {
+    "code": "NG",
+    "country-id": "nigeria",
+    "centroid": [
+      8.09,
+      9.59
+    ]
+  },
+  {
+    "code": "BJ",
+    "country-id": "benin",
+    "centroid": [
+      2.33,
+      9.64
+    ]
+  },
+  {
+    "code": "AO",
+    "country-id": "angola",
+    "centroid": [
+      17.54,
+      -12.29
+    ]
+  },
+  {
+    "code": "HR",
+    "country-id": "croatia",
+    "centroid": [
+      16.4,
+      45.08
+    ]
+  },
+  {
+    "code": "SI",
+    "country-id": "slovenia",
+    "centroid": [
+      14.8,
+      46.12
+    ]
+  },
+  {
+    "code": "QA",
+    "country-id": "qatar",
+    "centroid": [
+      51.18,
+      25.31
+    ]
+  },
+  {
+    "code": "SA",
+    "country-id": "saudi-arabia",
+    "centroid": [
+      44.54,
+      24.12
+    ]
+  },
+  {
+    "code": "BW",
+    "country-id": "botswana",
+    "centroid": [
+      23.8,
+      -22.18
+    ]
+  },
+  {
+    "code": "ZW",
+    "country-id": "zimbabwe",
+    "centroid": [
+      29.85,
+      -19
+    ]
+  },
+  {
+    "code": "BG",
+    "country-id": "bulgaria",
+    "centroid": [
+      25.22,
+      42.77
+    ]
+  },
+  {
+    "code": "TH",
+    "country-id": "thailand",
+    "centroid": [
+      101,
+      15.12
+    ]
+  },
+  {
+    "code": "SM",
+    "country-id": "san-marino",
+    "centroid": [
+      12.46,
+      43.94
+    ]
+  },
+  {
+    "code": "HT",
+    "country-id": "haiti",
+    "centroid": [
+      -72.69,
+      18.94
+    ]
+  },
+  {
+    "code": "DO",
+    "country-id": "dominican-rep",
+    "centroid": [
+      -70.51,
+      18.89
+    ]
+  },
+  {
+    "code": "TD",
+    "country-id": "chad",
+    "centroid": [
+      18.64,
+      15.33
+    ]
+  },
+  {
+    "code": "KW",
+    "country-id": "kuwait",
+    "centroid": [
+      47.59,
+      29.33
+    ]
+  },
+  {
+    "code": "SV",
+    "country-id": "el-salvador",
+    "centroid": [
+      -88.87,
+      13.74
+    ]
+  },
+  {
+    "code": "GT",
+    "country-id": "guatemala",
+    "centroid": [
+      -90.36,
+      15.69
+    ]
+  },
+  {
+    "code": "TL",
+    "country-id": "timor-leste",
+    "centroid": [
+      125.84,
+      -8.83
+    ]
+  },
+  {
+    "code": "BN",
+    "country-id": "brunei",
+    "centroid": [
+      114.72,
+      4.52
+    ]
+  },
+  {
+    "code": "MC",
+    "country-id": "monaco",
+    "centroid": [
+      7.41,
+      43.75
+    ]
+  },
+  {
+    "code": "DZ",
+    "country-id": "algeria",
+    "centroid": [
+      2.62,
+      28.16
+    ]
+  },
+  {
+    "code": "MZ",
+    "country-id": "mozambique",
+    "centroid": [
+      35.53,
+      -17.27
+    ]
+  },
+  {
+    "code": "BI",
+    "country-id": "burundi",
+    "centroid": [
+      29.88,
+      -3.36
+    ]
+  },
+  {
+    "code": "RW",
+    "country-id": "rwanda",
+    "centroid": [
+      29.92,
+      -1.99
+    ]
+  },
+  {
+    "code": "MM",
+    "country-id": "myanmar",
+    "centroid": [
+      96.49,
+      21.19
+    ]
+  },
+  {
+    "code": "BD",
+    "country-id": "bangladesh",
+    "centroid": [
+      90.24,
+      23.87
+    ]
+  },
+  {
+    "code": "AD",
+    "country-id": "andorra",
+    "centroid": [
+      1.56,
+      42.54
+    ]
+  },
+  {
+    "code": "AF",
+    "country-id": "afghanistan",
+    "centroid": [
+      66,
+      33.84
+    ]
+  },
+  {
+    "code": "ME",
+    "country-id": "montenegro",
+    "centroid": [
+      19.24,
+      42.79
+    ]
+  },
+  {
+    "code": "BA",
+    "country-id": "bosnia-and-herz",
+    "centroid": [
+      17.77,
+      44.17
+    ]
+  },
+  {
+    "code": "UG",
+    "country-id": "uganda",
+    "centroid": [
+      32.37,
+      1.27
+    ]
+  },
+  {
+    "code": "CU",
+    "country-id": "cuba",
+    "centroid": [
+      -79.02,
+      21.62
+    ]
+  },
+  {
+    "code": "HN",
+    "country-id": "honduras",
+    "centroid": [
+      -86.62,
+      14.83
+    ]
+  },
+  {
+    "code": "EC",
+    "country-id": "ecuador",
+    "centroid": [
+      -78.75,
+      -1.42
+    ]
+  },
+  {
+    "code": "CO",
+    "country-id": "colombia",
+    "centroid": [
+      -73.08,
+      3.91
+    ]
+  },
+  {
+    "code": "PY",
+    "country-id": "paraguay",
+    "centroid": [
+      -58.4,
+      -23.23
+    ]
+  },
+  {
+    "code": "PT",
+    "country-id": "portugal",
+    "centroid": [
+      -8.5,
+      39.6
+    ]
+  },
+  {
+    "code": "MD",
+    "country-id": "moldova",
+    "centroid": [
+      28.46,
+      47.19
+    ]
+  },
+  {
+    "code": "TM",
+    "country-id": "turkmenistan",
+    "centroid": [
+      59.37,
+      39.12
+    ]
+  },
+  {
+    "code": "JO",
+    "country-id": "jordan",
+    "centroid": [
+      36.77,
+      31.25
+    ]
+  },
+  {
+    "code": "NP",
+    "country-id": "nepal",
+    "centroid": [
+      83.92,
+      28.25
+    ]
+  },
+  {
+    "code": "LS",
+    "country-id": "lesotho",
+    "centroid": [
+      28.23,
+      -29.58
+    ]
+  },
+  {
+    "code": "CM",
+    "country-id": "cameroon",
+    "centroid": [
+      12.74,
+      5.69
+    ]
+  },
+  {
+    "code": "GA",
+    "country-id": "gabon",
+    "centroid": [
+      11.79,
+      -0.59
+    ]
+  },
+  {
+    "code": "NE",
+    "country-id": "niger",
+    "centroid": [
+      9.39,
+      17.42
+    ]
+  },
+  {
+    "code": "BF",
+    "country-id": "burkina-faso",
+    "centroid": [
+      -1.75,
+      12.27
+    ]
+  },
+  {
+    "code": "TG",
+    "country-id": "togo",
+    "centroid": [
+      0.96,
+      8.53
+    ]
+  },
+  {
+    "code": "GH",
+    "country-id": "ghana",
+    "centroid": [
+      -1.22,
+      7.95
+    ]
+  },
+  {
+    "code": "GW",
+    "country-id": "guinea-bissau",
+    "centroid": [
+      -14.95,
+      12.05
+    ]
+  },
+  {
+    "code": "US",
+    "country-id": "united-states-of-america",
+    "centroid": [
+      -101.39,
+      39.77
+    ]
+  },
+  {
+    "code": "CA",
+    "country-id": "canada",
+    "centroid": [
+      -109.75,
+      58.59
+    ]
+  },
+  {
+    "code": "MX",
+    "country-id": "mexico",
+    "centroid": [
+      -102.52,
+      23.95
+    ]
+  },
+  {
+    "code": "BZ",
+    "country-id": "belize",
+    "centroid": [
+      -88.71,
+      17.2
+    ]
+  },
+  {
+    "code": "PA",
+    "country-id": "panama",
+    "centroid": [
+      -80.12,
+      8.52
+    ]
+  },
+  {
+    "code": "VE",
+    "country-id": "venezuela",
+    "centroid": [
+      -66.18,
+      7.12
+    ]
+  },
+  {
+    "code": "PG",
+    "country-id": "papua-new-guinea",
+    "centroid": [
+      145.21,
+      -6.46
+    ]
+  },
+  {
+    "code": "EG",
+    "country-id": "egypt",
+    "centroid": [
+      29.86,
+      26.5
+    ]
+  },
+  {
+    "code": "YE",
+    "country-id": "yemen",
+    "centroid": [
+      47.59,
+      15.91
+    ]
+  },
+  {
+    "code": "MR",
+    "country-id": "mauritania",
+    "centroid": [
+      -10.35,
+      20.26
+    ]
+  },
+  {
+    "code": "GQ",
+    "country-id": "eq-guinea",
+    "centroid": [
+      10.34,
+      1.71
+    ]
+  },
+  {
+    "code": "GM",
+    "country-id": "gambia",
+    "centroid": [
+      -15.4,
+      13.45
+    ]
+  },
+  {
+    "code": "HK",
+    "country-id": "hong-kong",
+    "centroid": [
+      114.11,
+      22.4
+    ]
+  },
+  {
+    "code": "VA",
+    "country-id": "vatican",
+    "centroid": [
+      12.43,
+      41.9
+    ]
+  },
+  {
+    "code": "-99",
+    "country-id": "n-cyprus",
+    "centroid": [
+      33.57,
+      35.26
+    ]
+  },
+  {
+    "code": "-99",
+    "country-id": "siachen-glacier",
+    "centroid": [
+      77.18,
+      35.39
+    ]
+  },
+  {
+    "code": "AQ",
+    "country-id": "antarctica",
+    "centroid": [
+      19.92,
+      -80.51
+    ]
+  },
+  {
+    "code": "AU",
+    "country-id": "australia",
+    "centroid": [
+      134.49,
+      -25.73
+    ]
+  },
+  {
+    "code": "GL",
+    "country-id": "greenland",
+    "centroid": [
+      -41.34,
+      74.71
+    ]
+  },
+  {
+    "code": "FJ",
+    "country-id": "fiji",
+    "centroid": [
+      165.45,
+      -17.43
+    ]
+  },
+  {
+    "code": "NZ",
+    "country-id": "new-zealand",
+    "centroid": [
+      171.48,
+      -41.81
+    ]
+  },
+  {
+    "code": "NC",
+    "country-id": "new-caledonia",
+    "centroid": [
+      165.68,
+      -21.3
+    ]
+  },
+  {
+    "code": "MG",
+    "country-id": "madagascar",
+    "centroid": [
+      46.7,
+      -19.37
+    ]
+  },
+  {
+    "code": "PH",
+    "country-id": "philippines",
+    "centroid": [
+      122.88,
+      11.78
+    ]
+  },
+  {
+    "code": "LK",
+    "country-id": "sri-lanka",
+    "centroid": [
+      80.7,
+      7.61
+    ]
+  },
+  {
+    "code": "CW",
+    "country-id": "curacao",
+    "centroid": [
+      -68.97,
+      12.2
+    ]
+  },
+  {
+    "code": "AW",
+    "country-id": "aruba",
+    "centroid": [
+      -69.98,
+      12.52
+    ]
+  },
+  {
+    "code": "BS",
+    "country-id": "bahamas",
+    "centroid": [
+      -76.63,
+      24.29
+    ]
+  },
+  {
+    "code": "TC",
+    "country-id": "turks-and-caicos-is",
+    "centroid": [
+      -71.97,
+      21.83
+    ]
+  },
+  {
+    "code": "TW",
+    "country-id": "taiwan",
+    "centroid": [
+      120.95,
+      23.75
+    ]
+  },
+  {
+    "code": "JP",
+    "country-id": "japan",
+    "centroid": [
+      138.03,
+      37.59
+    ]
+  },
+  {
+    "code": "PM",
+    "country-id": "st-pierre-and-miquelon",
+    "centroid": [
+      -56.3,
+      46.92
+    ]
+  },
+  {
+    "code": "IS",
+    "country-id": "iceland",
+    "centroid": [
+      -18.57,
+      65
+    ]
+  },
+  {
+    "code": "PN",
+    "country-id": "pitcairn-is",
+    "centroid": [
+      -128.32,
+      -24.37
+    ]
+  },
+  {
+    "code": "PF",
+    "country-id": "fr-polynesia",
+    "centroid": [
+      -144.9,
+      -14.72
+    ]
+  },
+  {
+    "code": "TF",
+    "country-id": "fr-s-antarctic-lands",
+    "centroid": [
+      69.23,
+      -49.25
+    ]
+  },
+  {
+    "code": "SC",
+    "country-id": "seychelles",
+    "centroid": [
+      55.48,
+      -4.66
+    ]
+  },
+  {
+    "code": "KI",
+    "country-id": "kiribati",
+    "centroid": [
+      -45.61,
+      0.86
+    ]
+  },
+  {
+    "code": "MH",
+    "country-id": "marshall-is",
+    "centroid": [
+      170.34,
+      7
+    ]
+  },
+  {
+    "code": "TT",
+    "country-id": "trinidad-and-tobago",
+    "centroid": [
+      -61.27,
+      10.46
+    ]
+  },
+  {
+    "code": "GD",
+    "country-id": "grenada",
+    "centroid": [
+      -61.68,
+      12.12
+    ]
+  },
+  {
+    "code": "VC",
+    "country-id": "st-vin-and-gren",
+    "centroid": [
+      -61.2,
+      13.22
+    ]
+  },
+  {
+    "code": "BB",
+    "country-id": "barbados",
+    "centroid": [
+      -59.56,
+      13.18
+    ]
+  },
+  {
+    "code": "LC",
+    "country-id": "saint-lucia",
+    "centroid": [
+      -60.97,
+      13.89
+    ]
+  },
+  {
+    "code": "DM",
+    "country-id": "dominica",
+    "centroid": [
+      -61.36,
+      15.44
+    ]
+  },
+  {
+    "code": "MS",
+    "country-id": "montserrat",
+    "centroid": [
+      -62.19,
+      16.74
+    ]
+  },
+  {
+    "code": "AG",
+    "country-id": "antigua-and-barb",
+    "centroid": [
+      -61.79,
+      17.28
+    ]
+  },
+  {
+    "code": "KN",
+    "country-id": "st-kitts-and-nevis",
+    "centroid": [
+      -62.69,
+      17.26
+    ]
+  },
+  {
+    "code": "VI",
+    "country-id": "u-s-virgin-is",
+    "centroid": [
+      -64.8,
+      17.96
+    ]
+  },
+  {
+    "code": "BL",
+    "country-id": "st-barthelemy",
+    "centroid": [
+      -62.84,
+      17.9
+    ]
+  },
+  {
+    "code": "PR",
+    "country-id": "puerto-rico",
+    "centroid": [
+      -66.47,
+      18.23
+    ]
+  },
+  {
+    "code": "AI",
+    "country-id": "anguilla",
+    "centroid": [
+      -63.06,
+      18.22
+    ]
+  },
+  {
+    "code": "VG",
+    "country-id": "british-virgin-is",
+    "centroid": [
+      -64.47,
+      18.53
+    ]
+  },
+  {
+    "code": "JM",
+    "country-id": "jamaica",
+    "centroid": [
+      -77.31,
+      18.16
+    ]
+  },
+  {
+    "code": "KY",
+    "country-id": "cayman-is",
+    "centroid": [
+      -80.91,
+      19.43
+    ]
+  },
+  {
+    "code": "BM",
+    "country-id": "bermuda",
+    "centroid": [
+      -64.75,
+      32.31
+    ]
+  },
+  {
+    "code": "HM",
+    "country-id": "heard-i-and-mc-donald-is",
+    "centroid": [
+      73.52,
+      -53.09
+    ]
+  },
+  {
+    "code": "SH",
+    "country-id": "saint-helena",
+    "centroid": [
+      -9.55,
+      -12.4
+    ]
+  },
+  {
+    "code": "MU",
+    "country-id": "mauritius",
+    "centroid": [
+      57.57,
+      -20.28
+    ]
+  },
+  {
+    "code": "KM",
+    "country-id": "comoros",
+    "centroid": [
+      43.68,
+      -11.88
+    ]
+  },
+  {
+    "code": "ST",
+    "country-id": "sao-tome-and-principe",
+    "centroid": [
+      6.72,
+      0.44
+    ]
+  },
+  {
+    "code": "CV",
+    "country-id": "cabo-verde",
+    "centroid": [
+      -23.96,
+      15.96
+    ]
+  },
+  {
+    "code": "MT",
+    "country-id": "malta",
+    "centroid": [
+      14.41,
+      35.92
+    ]
+  },
+  {
+    "code": "JE",
+    "country-id": "jersey",
+    "centroid": [
+      -2.13,
+      49.22
+    ]
+  },
+  {
+    "code": "GG",
+    "country-id": "guernsey",
+    "centroid": [
+      -2.57,
+      49.47
+    ]
+  },
+  {
+    "code": "IM",
+    "country-id": "isle-of-man",
+    "centroid": [
+      -4.54,
+      54.22
+    ]
+  },
+  {
+    "code": "AX",
+    "country-id": "aland",
+    "centroid": [
+      19.95,
+      60.21
+    ]
+  },
+  {
+    "code": "FO",
+    "country-id": "faeroe-is",
+    "centroid": [
+      -6.88,
+      62.05
+    ]
+  },
+  {
+    "code": "-99",
+    "country-id": "indian-ocean-ter",
+    "centroid": [
+      104.85,
+      -10.65
+    ]
+  },
+  {
+    "code": "IO",
+    "country-id": "br-indian-ocean-ter",
+    "centroid": [
+      72.45,
+      -7.33
+    ]
+  },
+  {
+    "code": "SG",
+    "country-id": "singapore",
+    "centroid": [
+      103.82,
+      1.36
+    ]
+  },
+  {
+    "code": "NF",
+    "country-id": "norfolk-island",
+    "centroid": [
+      167.95,
+      -29.05
+    ]
+  },
+  {
+    "code": "CK",
+    "country-id": "cook-is",
+    "centroid": [
+      -159.79,
+      -21.22
+    ]
+  },
+  {
+    "code": "TO",
+    "country-id": "tonga",
+    "centroid": [
+      -174.81,
+      -20.43
+    ]
+  },
+  {
+    "code": "WF",
+    "country-id": "wallis-and-futuna-is",
+    "centroid": [
+      -177.35,
+      -13.89
+    ]
+  },
+  {
+    "code": "WS",
+    "country-id": "samoa",
+    "centroid": [
+      -172.16,
+      -13.75
+    ]
+  },
+  {
+    "code": "SB",
+    "country-id": "solomon-is",
+    "centroid": [
+      159.63,
+      -8.92
+    ]
+  },
+  {
+    "code": "MV",
+    "country-id": "maldives",
+    "centroid": [
+      73.46,
+      3.73
+    ]
+  },
+  {
+    "code": "NR",
+    "country-id": "nauru",
+    "centroid": [
+      166.93,
+      -0.52
+    ]
+  },
+  {
+    "code": "FM",
+    "country-id": "micronesia",
+    "centroid": [
+      153.24,
+      7.45
+    ]
+  },
+  {
+    "code": "GS",
+    "country-id": "s-geo-and-the-is",
+    "centroid": [
+      -36.43,
+      -54.46
+    ]
+  },
+  {
+    "code": "FK",
+    "country-id": "falkland-is",
+    "centroid": [
+      -59.35,
+      -51.74
+    ]
+  },
+  {
+    "code": "VU",
+    "country-id": "vanuatu",
+    "centroid": [
+      167.69,
+      -16.23
+    ]
+  },
+  {
+    "code": "NU",
+    "country-id": "niue",
+    "centroid": [
+      -169.87,
+      -19.05
+    ]
+  },
+  {
+    "code": "AS",
+    "country-id": "american-samoa",
+    "centroid": [
+      -170.72,
+      -14.3
+    ]
+  },
+  {
+    "code": "PW",
+    "country-id": "palau",
+    "centroid": [
+      134.41,
+      7.29
+    ]
+  },
+  {
+    "code": "GU",
+    "country-id": "guam",
+    "centroid": [
+      144.77,
+      13.44
+    ]
+  },
+  {
+    "code": "MP",
+    "country-id": "n-mariana-is",
+    "centroid": [
+      145.62,
+      15.83
+    ]
+  },
+  {
+    "code": "BH",
+    "country-id": "bahrain",
+    "centroid": [
+      50.54,
+      26.04
+    ]
+  },
+  {
+    "code": "MO",
+    "country-id": "macao",
+    "centroid": [
+      113.51,
+      22.22
+    ]
+  },
+  {
+    "code": "-99",
+    "country-id": "ashmore-and-cartier-is",
+    "centroid": [
+      123.58,
+      -12.43
+    ]
+  },
+  {
+    "code": "SZ",
+    "country-id": "eswatini",
+    "centroid": [
+      31.48,
+      -26.56
+    ]
+  }
+]
