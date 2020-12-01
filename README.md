@@ -10,11 +10,11 @@ The script itself is complete but this README is undergoing improvement.
 
 The client maintains their source data in the form of a spreadsheet (CSV) [./client-files/data.csv](./client-files/data.csv). The file contains multiple tree-cover and finance fields (columns) listed by country name.
 
-We use a script ```./scripts/assemble-dataset.mjs``` to merge the relevant data fields from the client-supplied CSV with country boundary and centroid data to produce two GeoJSON files ```data-boundaries.geojson``` and ```data-centroids.geojson```.
+We use a script [./scripts/assemble-dataset.mjs](./scripts/assemble-dataset.mjs) to merge the relevant data fields from the client-supplied CSV with country boundary and centroid data to produce two GeoJSON files ```data-boundaries.geojson``` and ```data-centroids.geojson``` in [./public/json](./public/json).
 
 These two GeoJSON files are suitable for creating interactive maps of the client's data.
 
-The script also copies ```data-recs.json``` and ```schema-defs.json``` containing the underlying data and data definitions respectively.
+The script also copies the underlying CSV data and data definitions into the corresponding public JSON files [./public/json/data-recs.json](./public/json/data-recs.json) and (./public/json/schema-defs.json)[./public/json/schema-defs.json].
 
 ## Source Data Columns:
 
