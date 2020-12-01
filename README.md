@@ -14,7 +14,7 @@ We use a script [./scripts/assemble-dataset.mjs](./scripts/assemble-dataset.mjs)
 
 These two GeoJSON files are suitable for creating interactive maps of the client's data.
 
-The script also copies the underlying CSV data and data definitions into the corresponding public JSON files [./public/json/data-recs.json](./public/json/data-recs.json) and (./public/json/schema-defs.json)[./public/json/schema-defs.json].
+The script also copies the underlying CSV data and data definitions into the corresponding public JSON files [./public/json/data-recs.json](./public/json/data-recs.json) and [./public/json/schema-defs.json](./public/json/schema-defs.json).
 
 ## Source Data Columns:
 
