@@ -1,10 +1,22 @@
 # FCR-822 Source Data, Definitions, and Scripts
 
-## Client Files
+## Note
 
-```./client-files/data.csv```
+This is a refactor of an interactive map/table created for a client website. This is the back-end script component.
 
-Columns:
+The script itself is complete but this README is undergoing improvement.
+
+## Purpose
+
+The client maintains their source data in the form of a spreadsheet (CSV) [./client-files/data.csv](./client-files/data.csv). The file contains multiple tree-cover and finance fields (columns) listed by country name.
+
+We use a script ```./scripts/assemble-dataset.mjs``` to merge the relevant data fields from the client-supplied CSV with country boundary and centroid data to produce two GeoJSON files ```data-boundaries.geojson``` and ```data-centroids.geojson```.
+
+These two GeoJSON files are suitable for creating interactive maps of the client's data.
+
+The script also copies ```data-recs.json``` and ```schema-defs.json``` containing the underlying data and data definitions respectively.
+
+## Source Data Columns:
 
 1. Country
 2. Tree Cover Loss (ha)
@@ -23,18 +35,6 @@ Columns:
 
 ## Configuration Files
 
-### Country Defs
-
-[./etc/country-defs.json](./etc/country-defs.json)
-
-#### Properties
-
-- __code__ ISO3166
-- __name__
-- __latitude__
-- __longitude__
-- __slug__ deburred kebab-case name
-
 ### Schema Defs
 
 [./etc/src-data-schema.mjs](./etc/src-data-schema.mjs)
@@ -43,18 +43,12 @@ This single definition file bridges the client's CSV data with the public JSON d
 
 This arrangement neatly documents the relationship between client and internal data, and allows for source-data changes that the client is likely to submit through updated CSV.
 
-## Public Data Files
+## Output Public Data Files
 
+- data-boundaries.geojson
+- data-centroids.geojson
 - data-recs.json
-- data-recs.min.json
-
-## Scripts
-
-### assemble-dataset.mjs
-
-The client maintains their source data in the form of a spreadsheet (CSV) [./client-files/data.csv](./client-files/data.csv). The file contains multiple tree-cover and finance fields (columns) listed by country name.
-
-```assemble-dataset.mjs``` merges the relevant data fields from the client-supplied CSV with [./etc/country-defs.json](./etc/country-defs.json) to produce a single output file [./public/json/data-recs.json](./public/json/data-recs.json) containing only the relevant client fields, plus ISO3166, latitude, and longitude.
+- schema-defs.json
 
 ## Requirements
 
