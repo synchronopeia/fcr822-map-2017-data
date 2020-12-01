@@ -2,21 +2,12 @@
   - Fields with a 'colLabel' property are read from the client supplied worksheet
     from the column of that name
 
-  - Fields from the client-supplied worksheet but NOT included in the output
-    JSON file have been commented out
-
-  - 'country-id' is the ISO3166 geographic code
-
-  - 'slug' is the deburred kebab case version of the region name
+  - 'country-id' is the deburred kebab-case version of NAME
  */
 
 const srcDataSchema = [
   {
-    fieldId: 'country-id', /** ISO3166 (merged from country definition) */
-    default: '',
-  },
-  {
-    fieldId: 'slug', /** deburred kebab case name (merged from country definition) */
+    fieldId: 'country-id',
     default: '',
   },
   {
@@ -26,12 +17,6 @@ const srcDataSchema = [
     parse: 'string',
     label: 'Country',
   },
-  // {
-  //   colLabel: 'Tree Cover Loss (ha)',
-  //   fieldId: 'tree-cover-loss',
-  //   default: null,
-  //   parse: 'number',
-  // },
   {
     colLabel: 'Tree Cover Loss (mha)',
     fieldId: 'tree-cover-loss-mega',
@@ -45,10 +30,10 @@ const srcDataSchema = [
     footnoteText: 'Source: Hansen, M. C., Potapov, P. V., Moore, R., Hancher, M., Turubanova, S. A., Tyukavina, A., et al. (2013). High-resolution global maps of 21st-century forest cover change [Data file and codebook]. Retrieved from the Global Forest Watch website. Updated by Global Forest Watch.',
     format: '.2f',
     binPartitions: [
-      { value: 0.03, label: '< 30,000 ha', color: '#eed870' },
-      { value: 0.1, label: '30,000 - 100,000 ha', color: '#dea71b' },
-      { value: 1, label: '100,000 - 1 million ha', color: '#a79646' },
-      { value: Number.POSITIVE_INFINITY, label: '> 1 million ha', color: '#6a5b43' },
+      { upperBoundary: 0.03, label: '< 30,000 ha', color: '#eed870' },
+      { upperBoundary: 0.1, label: '30,000 - 100,000 ha', color: '#dea71b' },
+      { upperBoundary: 1, label: '100,000 - 1 million ha', color: '#a79646' },
+      { upperBoundary: null, label: '> 1 million ha', color: '#6a5b43' },
     ],
   },
   {
@@ -64,10 +49,10 @@ const srcDataSchema = [
     footnoteText: '',
     format: '.2f',
     binPartitions: [
-      { value: 0.005, label: '< 0.005 %', color: '#eed870' },
-      { value: 0.1, label: '0.005 - 0.1 %', color: '#dea71b' },
-      { value: 1, label: '0.1 - 1 %', color: '#a79646' },
-      { value: Number.POSITIVE_INFINITY, label: '> 1 %', color: '#6a5b43' },
+      { upperBoundary: 0.005, label: '< 0.005 %', color: '#eed870' },
+      { upperBoundary: 0.1, label: '0.005 - 0.1 %', color: '#dea71b' },
+      { upperBoundary: 1, label: '0.1 - 1 %', color: '#a79646' },
+      { upperBoundary: null, label: '> 1 %', color: '#6a5b43' },
     ],
   },
   {
@@ -84,10 +69,10 @@ const srcDataSchema = [
     format: ',.0f',
     color: '#3181e3',
     binPartitions: [
-      { value: 10, label: '< USD 10 million', size: '12' },
-      { value: 50, label: 'USD 10 - 50 million', size: '30' },
-      { value: 200, label: 'USD 50 - 200 million', size: '45' },
-      { value: Number.POSITIVE_INFINITY, label: '> USD 200 million', size: '80' },
+      { upperBoundary: 10, label: '< USD 10 million', size: '12' },
+      { upperBoundary: 50, label: 'USD 10 - 50 million', size: '30' },
+      { upperBoundary: 200, label: 'USD 50 - 200 million', size: '45' },
+      { upperBoundary: null, label: '> USD 200 million', size: '80' },
     ],
   },
   {
@@ -104,10 +89,10 @@ const srcDataSchema = [
     format: ',.0f',
     color: '#1cc0ce',
     binPartitions: [
-      { value: 10, label: '< USD 10 million', size: '12' },
-      { value: 50, label: 'USD 10 - 50 million', size: '30' },
-      { value: 200, label: 'USD 50 - 200 million', size: '45' },
-      { value: Number.POSITIVE_INFINITY, label: '> USD 200 million', size: '80' },
+      { upperBoundary: 10, label: '< USD 10 million', size: '12' },
+      { upperBoundary: 50, label: 'USD 10 - 50 million', size: '30' },
+      { upperBoundary: 200, label: 'USD 50 - 200 million', size: '45' },
+      { upperBoundary: null, label: '> USD 200 million', size: '80' },
     ],
   },
   {
@@ -124,60 +109,12 @@ const srcDataSchema = [
     format: ',.0f',
     color: '#4d9925',
     binPartitions: [
-      { value: 10, label: '< USD 10 million', size: '12' },
-      { value: 50, label: 'USD 10 - 50 million', size: '30' },
-      { value: 200, label: 'USD 50 - 200 million', size: '45' },
-      { value: Number.POSITIVE_INFINITY, label: '> USD 200 million', size: '80' },
+      { upperBoundary: 10, label: '< USD 10 million', size: '12' },
+      { upperBoundary: 50, label: 'USD 10 - 50 million', size: '30' },
+      { upperBoundary: 200, label: 'USD 50 - 200 million', size: '45' },
+      { upperBoundary: null, label: '> USD 200 million', size: '80' },
     ],
   },
-  // {
-  //   colLabel: 'Results-based REDD+ finance disbursements (USD million)',
-  //   fieldId: 'results-based-finance-disbursements',
-  //   default: null,
-  //   parse: 'number',
-  // },
-  // {
-  //   colLabel: 'Results-based REDD+ finance commitments (USD million) - bilateral',
-  //   fieldId: 'results-based-finance-bilateral-commitments',
-  //   default: null,
-  //   parse: 'number',
-  // },
-  // {
-  //   colLabel: 'Results-based REDD+ finance disbursements (USD) - bilateral',
-  //   fieldId: 'results-based-finance-bilateral-disbursements',
-  //   default: null,
-  //   parse: 'number',
-  // },
-  // {
-  //   colLabel: 'FCPF Carbon Fund commitments based on LoIs and average price of 5USD',
-  //   fieldId: 'carbon-fund-commitments',
-  //   default: null,
-  //   parse: 'number',
-  // },
-  // {
-  //   colLabel: 'BioCarbon Fund ISFL',
-  //   fieldId: 'biocarbon-fund',
-  //   default: null,
-  //   parse: 'number',
-  // },
-  // {
-  //   colLabel: 'REDD+ phase 1 and 2 bilateral finance (USD million commitments/disbursements)',
-  //   fieldId: 'redd-plus-bilateral-finance',
-  //   default: null,
-  //   parse: 'number',
-  // },
-  // {
-  //   colLabel: 'REDD+ phase 1 and 2 bilateral finance (commitments/disbursements?)',
-  //   fieldId: 'redd-plus-bilateral-finance-commitments-disbursements-ratio',
-  //   default: null,
-  //   parse: 'number',
-  // },
-  // {
-  //   colLabel: 'REDD+ phase 1 and 2 finance commitments (USD million) - multilateral',
-  //   fieldId: 'redd-plus-bilateral-finance-multilateral-commitments',
-  //   default: null,
-  //   parse: 'number',
-  // },
 ];
 
 export default srcDataSchema;
