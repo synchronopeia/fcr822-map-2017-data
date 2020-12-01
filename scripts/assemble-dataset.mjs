@@ -1,28 +1,38 @@
+/* eslint-disable prefer-destructuring */
 /* eslint-disable import/extensions */
+
+/**
+ * Script to convert client CSV data file to corresponding GeoJSON boundary and centroid files
+ */
 
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import csv from 'csv';
-import deburr from 'lodash.deburr';
-import kebabCase from 'lodash.kebabcase';
+
+import slugifyName from './lib/slugify-name.mjs';
+import parseIsoFromProperties from './lib/parse-iso-from-properties.mjs';
+import parseNumberOrNull from './lib/parse-number-or-null.mjs';
+
+import BoundaryData from './boundary-data.mjs';
+import CentroidData from './centroid-data.mjs';
 
 import { fromCsv } from '../lib/csv-recordset.mjs';
 
 import srcDataSchema from '../etc/src-data-schema.mjs';
 
-const CLIENT_DATA_PATH = join('client-files', 'data.csv');
+const PUBLIC_DIR = join('public', 'json');
+const CLIENT_DIR = join('client-files');
+const CLIENT_DATA_PATH = join(CLIENT_DIR, 'data.csv');
 
-const parseNumberOrNull = (src) => {
-  if (typeof src !== 'string') throw Error('NON_STRING: src must be a string');
-  if (!src.length) return null;
-  const srcNum = Number(src);
-  if (Number.isNaN(srcNum)) throw Error(`NON_NUMBER: src cannot be converted to a number ('${src}')`);
-  return srcNum;
-};
+const boundaryData = new BoundaryData('./scripts/data/world.geojson');
+const centroidData = new CentroidData('./scripts/data/country-centroids.json');
 
-const countryDefs = JSON.parse(readFileSync('./etc/country-defs.json', 'utf-8'));
+const worldGeojson = JSON.parse(readFileSync('./scripts/data/world.geojson', 'utf-8'));
 
-const countryNames = JSON.parse(readFileSync('./etc/country-names.json', 'utf-8'));
+worldGeojson.features = worldGeojson.features.map((feature) => ({
+  ...feature,
+  properties: { code: parseIsoFromProperties(feature.properties), 'country-id': slugifyName(feature.properties.NAME), name: feature.properties.NAME },
+}));
 
 csv.parse(readFileSync(CLIENT_DATA_PATH, 'utf-8'), {
   columns: false,
@@ -31,28 +41,23 @@ csv.parse(readFileSync(CLIENT_DATA_PATH, 'utf-8'), {
   from: 1,
 }, (parseErr, clientDataTable) => {
   if (parseErr) throw Error(parseErr);
-  const clientDataRecs = fromCsv(clientDataTable, srcDataSchema).map((rec) => ({
+  const rawRecs = fromCsv(clientDataTable, srcDataSchema).map((rec) => ({
     ...rec,
-    slug: kebabCase(deburr(rec.name)),
+    'country-id': slugifyName(rec.name),
   }));
-  const dataset = clientDataRecs.map((inputRec) => {
-    // countryDef provides ISO3166 code (used as country-id), latitude, and longitude
-    // const countryDef = countryDefs.find((def) => (def.slug === inputRec.slug));
-    const countryDef = countryNames.find((def) => (def.slug === inputRec.slug));
-    if (countryDef === undefined) throw Error(`MISSING_COUNTRY_DEF: no country definition for ${inputRec.slug}`);
-    const outputRec = {
-      'country-id': countryDef.code,
-      slug: countryDef.slug,
-      // latitude: countryDef.latitude,
-      // longitude: countryDef.longitude,
-    };
-    // all other properties come from inputRecs (spreadsheet supplied by client)
+  const dataRecs = rawRecs.map((rawRec) => {
+    const dataRec = {};
     srcDataSchema.forEach((schemaDef) => {
-      if (Object.prototype.hasOwnProperty.call(outputRec, schemaDef.fieldId)) return;
-      // set any properties that haven't already been set
-      outputRec[schemaDef.fieldId] = (schemaDef.parse === 'number') ? parseNumberOrNull(inputRec[schemaDef.fieldId]) : inputRec[schemaDef.fieldId];
+      const value = (schemaDef.parse === 'number') ? parseNumberOrNull(rawRec[schemaDef.fieldId]) : rawRec[schemaDef.fieldId];
+      dataRec[schemaDef.fieldId] = value;
     });
-    return outputRec;
+    boundaryData.addFeature(rawRec['country-id'], { ...dataRec });
+    centroidData.addFeature(rawRec['country-id'], { ...dataRec });
+    return dataRec;
   });
-  writeFileSync('./public/json/data-recs.json', JSON.stringify(dataset));
+
+  writeFileSync(join(PUBLIC_DIR, 'schema-defs.json'), JSON.stringify(srcDataSchema));
+  writeFileSync(join(PUBLIC_DIR, 'data-recs.json'), JSON.stringify(dataRecs));
+  writeFileSync(join(PUBLIC_DIR, 'data-boundaries.geojson'), JSON.stringify(boundaryData.getGeoJson()));
+  writeFileSync(join(PUBLIC_DIR, 'data-centroids.geojson'), JSON.stringify(centroidData.getGeoJson()));
 });
