@@ -1,6 +1,6 @@
 {
   "name": "fcr822-map-2017-data",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "scripts and data for fcr822's 2017 interactive map",
   "main": "index.js",
   "engines": {
@@ -34,6 +34,7 @@
     "eslint-plugin-import": "2.22.1"
   },
   "dependencies": {
+    "@synchronopeia/csv-recordset": "0.1.1",
     "csv": "5.3.2",
     "lodash.deburr": "4.1.0",
     "lodash.kebabcase": "4.1.1"

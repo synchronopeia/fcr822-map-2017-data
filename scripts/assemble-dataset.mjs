@@ -8,6 +8,7 @@
 import { readFileSync, writeFileSync } from 'fs';
 import { join } from 'path';
 import csv from 'csv';
+import { fromCsv } from '@synchronopeia/csv-recordset';
 
 import slugifyName from './lib/slugify-name.mjs';
 import parseIsoFromProperties from './lib/parse-iso-from-properties.mjs';
@@ -15,8 +16,6 @@ import parseNumberOrNull from './lib/parse-number-or-null.mjs';
 
 import BoundaryData from './boundary-data.mjs';
 import CentroidData from './centroid-data.mjs';
-
-import { fromCsv } from '../lib/csv-recordset.mjs';
 
 import srcDataSchema from '../etc/src-data-schema.mjs';
 
