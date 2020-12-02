@@ -14,8 +14,8 @@ import slugifyName from './lib/slugify-name.mjs';
 import parseIsoFromProperties from './lib/parse-iso-from-properties.mjs';
 import parseNumberOrNull from './lib/parse-number-or-null.mjs';
 
-import BoundaryData from './boundary-data.mjs';
-import CentroidData from './centroid-data.mjs';
+import BoundaryData from './lib/boundary-data-class.mjs';
+import CentroidData from './lib/centroid-data-class.mjs';
 
 import srcDataSchema from '../etc/src-data-schema.mjs';
 

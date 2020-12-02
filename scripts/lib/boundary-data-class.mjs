@@ -2,8 +2,8 @@
 
 import { readFileSync } from 'fs';
 
-import slugifyName from './lib/slugify-name.mjs';
-import parseIsoFromProperties from './lib/parse-iso-from-properties.mjs';
+import slugifyName from './slugify-name.mjs';
+import parseIsoFromProperties from './parse-iso-from-properties.mjs';
 
 class BoundaryData {
   constructor(pathToJson) {
